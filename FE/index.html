@@ -1,0 +1,1079 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+    
+        .container {
+            width: 1400px; /* Set the width to the desired width of your pages */
+            max-width: 100%;
+            height: 100vh;
+            background: white;
+            position: relative;
+            overflow-x: hidden; /* Hide horizontal overflow */
+        }
+    
+        /* Rest of your CSS styles... */
+        /* Figma Styles of your File */
+:root {
+  /* Colors */
+  --action-primary: #25dac5;
+  --action-secondary: #482be7;
+  --action-third: #e93a7d;
+  --colors-heading: #1e0e62;
+  --colors-text: rgba(21, 20, 57, 0.4);
+  --colors-white: #ffffff;
+  --colors-grey: #ebeaed;
+  --background-dark: #2f1893;
+  --background-light: #ffffff;
+  --socials-facebook: #4267b2;
+  --socials-youtube: #ea3223;
+  --socials-twitter: #1da1f2;
+  --socials-pinterest: #c8232c;
+  --socials-snapchat: #fffc00;
+  --socials-linked-in: #0077b5;
+  --socials-dribbble: #e94c88;
+
+  /* Fonts */
+  --font-awesome: 400 18px "FontAwesome", sans-serif;
+  --text-article: 500 18px/28px "DM Sans", sans-serif;
+  --text-paragraph: 400 16px/26px "DM Sans", sans-serif;
+  --text-description: 500 14px/22px "DM Sans", sans-serif;
+  --text-label: 700 14px/26px "DM Sans", sans-serif;
+  --heading-h-1-hero: 700 72px/86px "DM Sans", sans-serif;
+  --heading-h-2-header: 700 58px/70px "DM Sans", sans-serif;
+  --heading-h-3-title: 700 42px/52px "DM Sans", sans-serif;
+  --heading-h-4-headline: 700 32px/42px "DM Sans", sans-serif;
+  --heading-h-5-lead: 500 22px/32px "DM Sans", sans-serif;
+  --buttons-small: 500 16px/22px "DM Sans", sans-serif;
+  --buttons-big: 500 20px/26px "DM Sans", sans-serif;
+  --buttons-middle: 500 18px/26px "DM Sans", sans-serif;
+
+  /* Effects */
+}
+
+        .header-11,
+.header-11 * {
+  box-sizing: border-box;
+}
+.header-11 {
+  background: var(--background-light, #ffffff);
+  width: 1400px;
+  height: 930px;
+  position: relative;
+  overflow: hidden;
+}
+.i-pad-pro {
+  position: absolute;
+  inset: 0;
+}
+.i-pad-pro2 {
+  width: 470.44px;
+  height: 615px;
+  position: absolute;
+  left: 1185.44px;
+  top: 173px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+}
+.screen {
+  border-radius: 11px;
+  width: 576.32px;
+  height: 430.5px;
+  position: absolute;
+  left: 735.29px;
+  top: 768.98px;
+  transform-origin: 0 0;
+  transform: rotate(-90deg) scale(1, 1);
+}
+.text {
+  position: absolute;
+  inset: 0;
+}
+.middle-fill {
+  width: 153px;
+  height: 50px;
+  position: absolute;
+  left: 217px;
+  top: 643px;
+}
+.rectangle {
+  background: var(--action-primary, #25dac5);
+  border-radius: 100px;
+  width: 153px;
+  height: 50px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.sign-up {
+  color: var(--colors-white, #ffffff);
+  text-align: center;
+  font: var(--buttons-middle, 500 18px/26px "DM Sans", sans-serif);
+  position: absolute;
+  left: calc(50% - 49.5px);
+  top: calc(50% - 13px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign-up2 {
+  color: var(--colors-heading, #1e0e62);
+  text-align: center;
+  font: var(--buttons-middle, 500 18px/26px "DM Sans", sans-serif);
+  position: absolute;
+  left: calc(50% - 295px);
+  top: calc(50% - -190px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.we-haven-t-forgotten {
+  color: var(--colors-text, rgba(21, 20, 57, 0.4));
+  text-align: left;
+  font: var(--heading-h-5-lead, 500 22px/32px "DM Sans", sans-serif);
+  opacity: 0.699999988079071;
+  position: absolute;
+  left: 215px;
+  top: 455px;
+  width: 370px;
+}
+.you-have-the-design {
+  color: var(--colors-heading, #1e0e62);
+  text-align: left;
+  font: var(--heading-h-2-header, 700 58px/70px "DM Sans", sans-serif);
+  position: absolute;
+  left: 215px;
+  top: 220px;
+  width: 400px;
+}
+.header-menu {
+  position: absolute;
+  inset: 0;
+}
+.menu {
+  width: 384px;
+  height: 40px;
+  position: static;
+}
+.middle-fill2 {
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  left: 1105px;
+  top: 66px;
+}
+.rectangle2 {
+  background: var(--action-secondary, #482be7);
+  border-radius: 100px;
+  width: 80px;
+  height: 40px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.sign-up3 {
+  color: var(--colors-white, #ffffff);
+  text-align: center;
+  font: var(--buttons-middle, 500 18px/26px "DM Sans", sans-serif);
+  position: absolute;
+  left: calc(50% - 16px);
+  top: calc(50% - 13px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about {
+  color: var(--colors-heading, #1e0e62);
+  text-align: left;
+  font: var(--buttons-middle, 500 18px/26px "DM Sans", sans-serif);
+  position: absolute;
+  left: 993px;
+  top: calc(50% - 392px);
+}
+.tour {
+  color: var(--colors-heading, #1e0e62);
+  text-align: left;
+  font: var(--buttons-middle, 500 18px/26px "DM Sans", sans-serif);
+  position: absolute;
+  left: 885px;
+  top: calc(50% - 392px);
+}
+.tour2 {
+  color: var(--colors-heading, #1e0e62);
+  text-align: left;
+  font: var(--buttons-middle, 500 18px/26px "DM Sans", sans-serif);
+  opacity: 0.30000001192092896;
+  position: absolute;
+  left: 801px;
+  top: calc(50% - 392px);
+}
+.black {
+  width: 111px;
+  height: 19px;
+  position: absolute;
+  left: 215px;
+  top: 72px;
+}
+.startup-3 {
+  color: var(--colors-heading, #1e0e62);
+  text-align: center;
+  font: 700 24px "DM Sans", sans-serif;
+  position: absolute;
+  left: 2px;
+  top: -6px;
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div style="width: 1400px; height: 700px; position: relative; background: white">
+        <div style="height: 103.20px; left: 550px; top: 488px; position: absolute">
+            <div style="left: 101px; top: 40px; position: absolute; text-align: center; color: #25DAC5; font-size: 18px; font-family: Poppins; font-weight: 500; line-height: 26px; word-wrap: break-word; white-space: nowrap;">Learn More</div>
+                <div style="width: 300px; height: 60px; left: 0px; top: -30px; position: absolute; display: flex; justify-content: center; align-items: center; text-align: center; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word; width: 300px; height: 60px; background: #25DAC5; border-radius: 100px;">Purchase Now for $248</div>
+        </div>
+        <div style="height: 219.80px; left: 315px; top: 189px; position: absolute">
+          <div style="width: 582px; left: 95px; top: 123.80px; position: absolute; text-align: center; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">We made it so beutiful and simple. It combines landings, pages, blogs and shop screens. It is definitely the tool you need in your collection! </div>
+          <div style="width: 770px; left: 0px; top: 0px; position: absolute; text-align: center; color: #1E0E62; font-size: 72px; font-family: DM Sans; font-weight: 700; line-height: 86px; word-wrap: break-word">Startup Framework</div>
+        </div>
+        <div style="width: 769px; height: 40px; left: 400px; top: 60px; position: absolute">
+          <div style="width: 100px; height: 40px; left: 669px; top: 0px; position: absolute">
+            <div style="width: 100px; height: 40px; left: 0px; top: 0px; position: absolute; background: #25DAC5; border-radius: 100px"></div>
+            <div style="left: 22px; top: 7px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Sign In</div>
+          </div>
+          <div style="left: 560px; top: 7.20px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">Sign In</div>
+          <div style="left: 344px; top: 11px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-search.png" alt=""></div>
+          <div style="left: 270px; top: 7.20px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">Shop</div>
+          <div style="left: 195px; top: 7.20px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">Blog</div>
+          <div style="left: 84px; top: 7.20px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">Features</div>
+          <div style="left: 0px; top: 7.20px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">Home</div>
+        </div>
+        <div style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; left: 115px; top: 71px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+          <div style="text-align: center; color: #1E0E62; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+        </div>
+      </div>
+
+      <div style="width: 1400px; height: 800px; position: relative; background: #2F1893">
+        <div style="width: 425px; height: 114.40px; left: 515px; top: 567px; position: absolute">
+          <div style="left: 0px; top: 92.40px; position: absolute; opacity: 0.30; color: white; font-size: 16px; font-family: Poppins; font-weight: 400; line-height: 22px; word-wrap: break-word">By signing up, you agree to the Terms of Service</div>
+          <div style="width: 120px; height: 60px; left: 305px; top: 0px; position: absolute">
+            <div style="width: 120px; height: 60px; left: 0px; top: 0px; position: absolute; background: #25DAC5; border-radius: 30px"></div>
+            <div style="left: 33px; top: 16px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: Poppins; font-weight: 600; line-height: 26px; word-wrap: break-word">Send</div>
+          </div>
+        </div>
+        <div style="height: 311.80px; left: 315px; top: 182px; position: absolute">
+          <div style="width: 607px; left: 82px; top: 215.80px; position: absolute; text-align: center; color: white; font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">The most important part of the Startup is the samples. The samples form a set of 25 usable pages you can use as is or you can add new blocks from UI Kit.</div>
+          <div style="width: 770px; left: 0px; top: 0px; position: absolute; text-align: center; color: white; font-size: 72px; font-family: DM Sans; font-weight: 700; line-height: 86px; word-wrap: break-word">Let’s make design<br/>fast and easy</div>
+        </div>
+        <div style="width: 1159px; height: 40px; left: 115px; top: 53px; position: absolute">
+          <div style="left: 850px; top: 7.40px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">Features</div>
+          <div style="width: 100px; height: 40px; left: 950px; top: 0px; position: absolute">
+            <div style="width: 100px; height: 40px; left: 0px; top: 0px; position: absolute; background: #482BE7; border-radius: 100px"></div>
+            <div style="left: 22px; top: 7px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Sign In</div>
+          </div>
+          <div style="left: 750px; top: 7.40px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">Subscribe</div>
+          <div style="left: 0px; top: 0px; position: absolute; text-align: center; color: white; font-size: 24px; font-family: Poppins; font-weight: 700; word-wrap: break-word">Startup 3</div>
+        </div>
+        <div style="width: 350px; height: 60px; left: 460px; top: 567px; position: absolute">
+          <div style="width: 350px; height: 60px; left: 0px; top: 0px; position: absolute; opacity: 0.20; border-radius: 100px; border: 2px white solid"></div>
+          <div style="left: 24px; top: 18px; position: absolute; opacity: 0.40; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Your email</div>
+        </div>
+      </div>
+
+      <div style="width: 1400px; height: 880px; position: relative; background: white">
+        <div style="width: 470px; height: 409px; left: 720px; top: 230px; position: absolute">
+          <div style="width: 350px; left: 0px; top: 297px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">We made it so beutiful and simple. It combines landings, pages, blogs and shop screens. It is definitely the tool you need in your collection! </div>
+          <img style="width: 470px; height: 265px; left: 0px; top: 0px; position: absolute; border-radius: 10px" src="./images/Mask.png" />
+          
+          <div style="width: 70px; height: 70px; left: 200px; top: 98px; position: absolute">
+            <div style="width: 70px; height: 70px; left: 0px; top: 0px; position: absolute; background: #EA3223; border-radius: 100px"></div>
+            <div style="width: 16px; height: 16px; left: 29px; top: 28px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/Ticon.png" alt=""></div>
+          </div>
+        </div>
+        <div style="width: 470px; height: 283px; left: 115px; top: 450px; position: absolute">
+          <div style="width: 470px; height: 60px; left: 0px; top: 180px; position: absolute">
+            <div style="width: 470px; height: 60px; left: 0px; top: 0px; position: absolute; background: #25DAC5; border-radius: 100px"></div>
+            <div style="left: 204px; top: 17px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Sign In</div>
+          </div>
+          <div style="left: 58px; top: 257px; position: absolute; text-align: center; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 400; line-height: 26px; word-wrap: break-word">By signing up, you agree to the Terms of Service</div>
+          <div style="width: 470px; height: 60px; left: 0px; top: 90px; position: absolute">
+            <div style="width: 470px; height: 60px; left: 0px; top: 0px; position: absolute; border-radius: 100px; border: 2px #EBEAED solid"></div>
+            <div style="left: 24px; top: 18px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Your password</div>
+          </div>
+          <div style="width: 470px; height: 60px; left: 0px; top: 0px; position: absolute">
+            <div style="width: 470px; height: 60px; left: 0px; top: 0px; position: absolute; border-radius: 100px; border: 2px #EBEAED solid"></div>
+            <div style="left: 24px; top: 18px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Your email</div>
+          </div>
+        </div>
+        <div style="width: 600px; left: 115px; top: 217px; position: absolute; color: #1E0E62; font-size: 42px; font-family: DM Sans; font-weight: 700; line-height: 52px; word-wrap: break-word">A high-quality solution for those who want a beautiful startup website quickly</div>
+        <div style="width: 1170px; height: 40px; left: 114px; top: 67px; position: absolute">
+          <div style="width: 310px; height: 40px; left: 860px; top: 0px; position: absolute">
+            <div style="width: 100px; height: 40px; left: 210px; top: 0px; position: absolute">
+              <div style="width: 100px; height: 40px; left: -100px; top: 0px; position: absolute; background: #25DAC5; border-radius: 100px"></div>
+              <div style="left: -80px; top: 7px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Sign Up</div>
+            </div>
+            <div style="left: -80px; top: 4.40px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">API</div>
+            <div style="left: -30px; top: 4.40px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Help</div>
+            <div style="left: 30px; top: 4.40px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Login</div>
+          </div>
+          <div style="width: 310px; height: 28.60px; left: 143px; top: 4.40px; position: absolute">
+            <div style="left: 209px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Community</div>
+            <div style="left: 122px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Pricing</div>
+            <div style="left: 83px; top: 2.60px; position: absolute; text-align: center; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 20px; font-family: FontAwesome; font-weight: 400; line-height: 26px; word-wrap: break-word"></div>
+            <div style="left: 0px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Products</div>
+          </div>
+          <div style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; left: 0px; top: 5px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+            <div style="text-align: center; color: #1E0E62; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="width: 1400px; height: 920px; position: relative; background: white">
+  <div style="width: 770px; height: 434px; left: 315px; top: 384px; position: absolute">
+    <img style="width: 770px; height: 434px; left: 0px; top: 0px; position: absolute" src="./images/4Image.png" />
+    <div style="width: 70px; height: 70px; left: 350px; top: 182px; position: absolute">
+      <div style="width: 70px; height: 70px; left: 0px; top: 0px; position: absolute; background: #EA3223; border-radius: 100px"></div>
+      <div style="width: 16px; height: 16px; left: 29px; top: 28px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/Ticon.png" alt=""></div>
+    </div>
+  </div>
+  <div style="width: 766px; left: 319px; top: 155px; position: absolute; text-align: center; color: #1E0E62; font-size: 58px; font-family: DM Sans; font-weight: 700; line-height: 70px; word-wrap: break-word">Simple and beautiful ready for use blocks</div>
+  <div style="width: 1172px; height: 26px; left: 115px; top: 50.40px; position: absolute">
+    <div style="width: 126px; height: 18px; left: 900px; top: 2.60px; position: absolute">
+      <div style="left: 102px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-twitter.png" alt=""></div>
+      <div style="left: 53px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-facebook-square.png" alt=""></div>
+      <div style="left: 0px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-google-plus.png" alt=""></div>
+    </div>
+    <div style="width: 450px; height: 26px; left: 141px; top: 0px; position: absolute">
+      <div style="left: 414px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Blog</div>
+      <div style="left: 313px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Support</div>
+      <div style="left: 238px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Docs</div>
+      <div style="left: 108px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Downloads</div>
+      <div style="left: 0px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Features</div>
+    </div>
+    <div style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; left: 0px; top: 0.60px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+      <div style="text-align: center; color: #1E0E62; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+    </div>
+  </div>
+</div>
+
+<div style="width: 1400px; height: 1280px; position: relative; background: white">
+    <div style="width: 1114px; height: 133.50px; left: 90px; top: 1087px; position: absolute">
+      <div style="width: 315px; left: 799px; top: 18.20px; position: absolute; text-align: center; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">You can easily combine components in a variety ways for different design projects. It’s easy!</div>
+      <div style="width: 2px; height: 126px; left: 751.50px; top: 0px; position: absolute; opacity: 0.30; border: 2px rgba(21.06, 20.34, 56.79, 0.40) solid"></div>
+      <div style="width: 315px; left: 396px; top: 18.20px; position: absolute; text-align: center; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">There are a lot of different components that will help you create the perfect look and feel for your startup.</div>
+      <div style="width: 2px; height: 126px; left: 352.50px; top: 7.50px; position: absolute; opacity: 0.30; border: 2px rgba(21.06, 20.34, 56.79, 0.40) solid"></div>
+      <div style="width: 315px; left: 0px; top: 18.20px; position: absolute; text-align: center; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">Startup Framework works on devices supporting Retina Display. Feel the clarity in each pixel.</div>
+    </div>
+    <div style="width: 940px; height: 541px; left: 230px; top: 481px; position: absolute">
+      <div style="width: 940px; height: 541px; left: 0px; top: 0px; position: absolute">
+        <img style="width: 940px; height: 541px; left: 0px; top: 0px; position: absolute" src="./images/MacBook Pro.png" />
+        <!-- <div style="width: 761.84px; height: 509.91px; left: 89.30px; top: 2.59px; position: absolute">
+          <div style="width: 755.80px; height: 13.82px; left: 3.45px; top: 496.10px; position: absolute; background: #1B1B1B; border-top-left-radius: 6.04px; border-top-right-radius: 6.04px"></div>
+          <div style="width: 761.84px; height: 509.91px; left: 0px; top: 0px; position: absolute; border: 1.73px #1B1B1B solid"></div>
+          <div style="width: 2.60px; height: 1.13px; left: 757.29px; top: 508.78px; position: absolute; background: #1B1B1B"></div>
+          <div style="width: 2.60px; height: 1.13px; left: 1.93px; top: 508.78px; position: absolute; background: #1B1B1B"></div>
+        </div> -->
+        <!-- <img style="width: 57.28px; height: 7.40px; left: 441.98px; top: 501.75px; position: absolute" src="./images/Line1.svg" alt="hello" /> -->
+      </div>
+      <img style="width: 726px; height: 457px; left: 107px; top: 28px; position: absolute" src="./images/Screen.png" />
+    </div>
+    <div style="width: 170px; height: 60px; left: 615px; top: 348px; position: absolute">
+      <div style="width: 170px; height: 60px; left: 0px; top: 0px; position: absolute; background: #25DAC5; border-radius: 100px"></div>
+      <div style="left: 30px; top: 17px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Get Started</div>
+    </div>
+    <div style="width: 839px; left: 281px; top: 154px; position: absolute; text-align: center; color: #1E0E62; font-size: 58px; font-family: DM Sans; font-weight: 700; line-height: 70px; word-wrap: break-word">A high-quality solution startup website quickly</div>
+    <div style="width: 1170px; height: 40px; left: 115px; top: 30px; position: absolute">
+      <div style="width: 100px; height: 40px; left: 1070px; top: 0px; position: absolute">
+        <div style="width: 100px; height: 40px; left: -90px; top: 0px; position: absolute; border-radius: 100px; border: 2px #EBEAED solid"></div>
+        <div style="left: -65px; top: 7px; position: absolute; text-align: center; color: #1E0E62; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Sign In</div>
+      </div>
+      <div style="width: 465px; height: 26px; left: 500px; top: 6px; position: absolute">
+        <div style="left: 420px; top: 0px; position: absolute; color: #1E0E62; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Login</div>
+        <div style="left: 337px; top: 0px; position: absolute; color: #1E0E62; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">About</div>
+        <div style="left: 246px; top: 0px; position: absolute; color: #1E0E62; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Pricing</div>
+        <div style="left: 103px; top: 0px; position: absolute; color: #1E0E62; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">How it Works</div>
+        <div style="left: 0px; top: 0px; position: absolute; color: #1E0E62; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Portfolio</div>
+      </div>
+      <div style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; left: 0px; top: 11px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+        <div style="text-align: center; color: #1E0E62; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="width: 1400px; height: 800px; position: relative; background: #2F1893">
+    <img style="width: 1400px; height: 800px; left: 0px; top: 0px; position: absolute; opacity: 0.70" src="./images/header6_BG.png" />
+    <div style="width: 830px; height: 510px; left: 285px; top: 169px; position: absolute">
+      <div style="width: 513px; height: 73px; left: 159px; top: 437px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">We made it so beutiful and simple. It combines landings, pages, blogs and shop screens. It is definitely the tool you need in your collection! </div>
+      <div style="width: 830px; height: 211px; left: 0px; top: 0px; position: absolute; text-align: center; color: white; font-size: 58px; font-family: DM Sans; font-weight: 700; line-height: 70px; word-wrap: break-word">A high-quality solution for those who want a beautiful startup website quickly</div>
+    </div>
+    <div style="width: 971px; height: 40.10px; left: 214px; top: 60px; position: absolute">
+      <div style="width: 177px; height: 40.10px; left: 794px; top: 0px; position: absolute">
+        <div style="width: 100px; height: 40.10px; left: 77px; top: 0px; position: absolute">
+          <div style="width: 100px; height: 40.10px; left: 0px; top: 0px; position: absolute; background: #25DAC5; border-radius: 100px"></div>
+          <div style="left: 18px; top: 7px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Sign Up</div>
+        </div>
+        <div style="left: 0px; top: 6.84px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Login</div>
+      </div>
+      <div style="width: 111px; height: 19.05px; left: 430px; top: 11px; position: absolute">
+        <div style="width: 111px; height: 19.05px; left: 0px; top: 0px; position: absolute">
+          <div style="left: 2px; top: -6px; position: absolute; text-align: center; color: white; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+        </div>
+      </div>
+      <div style="width: 301px; height: 26px; left: 0px; top: 7px; position: absolute">
+        <div style="left: 0px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Products</div>
+        <div style="left: 109px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Pricing</div>
+        <div style="left: 200px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Community</div>
+      </div>
+    </div>
+    <div style="width: 70px; height: 70px; left: 665px; top: 464px; position: absolute">
+      <div style="width: 70px; height: 70px; left: 0px; top: 0px; position: absolute; background: #EA3223; border-radius: 100px"></div>
+      <div style="width: 16px; height: 16px; left: 29px; top: 28px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/Ticon.png" alt=""></div>
+    </div>
+  </div>
+
+  <div style="width: 1400px; height: 810px; position: relative; background: white">
+    <img style="width: 585px; height: 810px; left:750px; top: 0px; position: absolute" src="./images/header7_side_img.png" />
+    <div style="width: 353px; height: 107px; left: 117px; top: 547px; position: absolute">
+      <div style="left: 0px; top: 81px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 400; line-height: 26px; word-wrap: break-word">By signing up, you agree to the Terms of Service</div>
+      <div style="width: 170px; height: 60px; left: 0px; top: 0px; position: absolute">
+        <div style="width: 170px; height: 60px; left: 0px; top: 0px; position: absolute; background: #25DAC5; border-radius: 100px"></div>
+        <div style="left: 35px; top: 17px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Get Started</div>
+      </div>
+      <div style="width: 170px; height: 60px; left: 180px; top: 1px; position: absolute">
+        <div style="width: 170px; height: 60px; left: 0px; top: 0px; position: absolute; border-radius: 100px; border: 2px #EBEAED solid"></div>
+        <div style="left: 37px; top: 17px; position: absolute; text-align: center; color: #1E0E62; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Learn More</div>
+      </div>
+    </div>
+    <div style="width: 568px; height: 249.90px; left: 116px; top: 226px; position: absolute">
+      <div style="width: 471px; height: 83.90px; left: 0px; top: 166px; position: absolute; opacity: 0.70; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">We made it so beutiful and simple. It combines landings, pages, blogs and shop screens. It is definitely the tool you need in your collection! </div>
+      <div style="width: 568px; height: 140px; left: 0px; top: 0px; position: absolute; color: #1E0E62; font-size: 58px; font-family: DM Sans; font-weight: 700; line-height: 70px; word-wrap: break-word">Great tool to boost your startup </div>
+    </div>
+    <div style="width: 567px; height: 22px; left: 115px; top: 79px; position: absolute">
+      <div style="width: 137px; height: 22px; left: 430px; top: 0px; position: absolute">
+        <div style="left: 90px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">About</div>
+        <div style="left: 0px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Pricing</div>
+      </div>
+      <div style="width: 111px; height: 18.98px; left: 0px; top: 1.50px; position: absolute">
+        <div style="left: 2px; top: -6px; position: absolute; text-align: center; color: #1E0E62; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="width: 1400px; height: 850px; position: relative; background: #2F1893">
+    <img style="width: 1400px; height: 850px; left: 0px; top: 0px; position: absolute; opacity: 0.50" src="./images/header8_bg_img.png" />
+    <div style="width: 230px; height: 60px; left: 585px; top: 627px; position: absolute">
+      <div style="width: 230px; height: 60px; left: 0px; top: 0px; position: absolute; background: #482BE7; border-radius: 100px"></div>
+      <div style="left: 35px; top: 17px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Create an Account</div>
+    </div>
+    <div style="width: 1170px; height: 35px; left: 115px; top: 329px; position: absolute">
+      <div style="left: 1000px; top: 0px; position: absolute; text-align: center; color: white; font-size: 30px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-angle-right.png" alt=""></div>
+      <div style="left: 0px; top: 0px; position: absolute; opacity: 0.30; text-align: center; color: white; font-size: 30px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-angle-left.png" alt=""></div>
+    </div>
+    <div style="width: 736px; height: 257px; left: 332px; top: 253px; position: absolute">
+      <div style="width: 736px; left: 0px; top: 161px; position: absolute; text-align: center; color: white; font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">Startup Framework gives you complete freedom over your creative process — you don’t have to think about any technical aspects. There are no limits and absolutely no coding. </div>
+      <div style="left: 48px; top: 47.80px; position: absolute; text-align: center; color: white; font-size: 72px; font-family: DM Sans; font-weight: 700; line-height: 86px; word-wrap: break-word">Forget About Code</div>
+      <div style="width: 111px; height: 19px; left: 312px; top: 0px; position: absolute">
+        <div style="width: 111px; height: 19px; left: 0px; top: 0px; position: absolute">
+          <div style="left: 2px; top: -6px; position: absolute; text-align: center; color: white; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+        </div>
+      </div>
+    </div>
+    <div style="width: 469px; height: 26px; left: 466px; top: 85px; position: absolute">
+      <div style="left: 448px; top: 3.20px; position: absolute; color: white; font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-dribbble.png" alt=""></div>
+      <div style="left: 392px; top: 3.20px; position: absolute; color: white; font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-behance.png" alt=""></div>
+      <div style="left: 313px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Blog</div>
+      <div style="left: 212px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Pricing</div>
+      <div style="left: 94px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Features</div>
+      <div style="left: 0px; top: 0px; position: absolute; opacity: 0.30; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Home</div>
+    </div>
+    <div style="width: 91px; height: 11px; left: 654px; top: 558px; position: absolute">
+      <div style="width: 91px; height: 10px; left: 0px; top: 0px; position: absolute">
+        <div style="width: 11px; height: 10px; left: 80px; top: 0px; position: absolute; opacity: 0.30; color: white; font-size: 12px; font-family: FontAwesome; font-weight: 400; line-height: 36px; word-wrap: break-word"><img src="./images/fa-circle-o.png" alt=""></div>
+        <div style="width: 11px; height: 10px; left: 60px; top: 0px; position: absolute; opacity: 0.30; color: white; font-size: 12px; font-family: FontAwesome; font-weight: 400; line-height: 36px; word-wrap: break-word"><img src="./images/fa-circle-o.png" alt=""></div>
+        <div style="width: 11px; height: 10px; left: 40px; top: 0px; position: absolute; opacity: 0.30; color: white; font-size: 12px; font-family: FontAwesome; font-weight: 400; line-height: 36px; word-wrap: break-word"><img src="./images/fa-circle-o.png" alt=""></div>
+        <div style="width: 11px; height: 10px; left: 20px; top: 0px; position: absolute; opacity: 0.30; color: white; font-size: 12px; font-family: FontAwesome; font-weight: 400; line-height: 36px; word-wrap: break-word"><img src="./images/fa-circle-o.png" alt=""></div>
+        <div style="width: 11px; height: 10px; left: 0px; top: 0px; position: absolute; color: white; font-size: 12px; font-family: FontAwesome; font-weight: 400; line-height: 36px; word-wrap: break-word"><img src="./images/White.png" alt=""></div>
+      </div>
+    </div>
+  </div>
+
+  <div style="width: 1400px; height: 800px; position: relative; background: white">
+    <div style="width: 1600px; height: 840px; left: 0px; top: 0px; position: absolute; background: white"></div>
+    <div style="width: 471px; height: 319px; left: 214px; top: 222px; position: absolute">
+      <div style="width: 421px; left: 0px; top: 235px; position: absolute; opacity: 0.70; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">We made it so beutiful and simple. It combines landings, pages, blogs and shop screens. It is definitely the tool you need in your collection! </div>
+      <div style="width: 471px; left: 0px; top: 0px; position: absolute; color: #1E0E62; font-size: 58px; font-family: DM Sans; font-weight: 700; line-height: 70px; word-wrap: break-word">You have the design, you have the code</div>
+    </div>
+    <div style="width: 971px; height: 40px; left: 214px; top: 78px; position: absolute">
+      <div style="width: 118px; height: 40px; left: 853px; top: 0px; position: absolute">
+        <div style="width: 118px; height: 40px; left: 0px; top: 0px; position: absolute; border-radius: 100px; border: 2px #EBEAED solid"></div>
+        <div style="left: 20px; top: 7px; position: absolute; text-align: center; color: #1E0E62; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Purchase</div>
+      </div>
+      <div style="left: 745px; top: 7px; position: absolute; color: #1E0E62; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Platform</div>
+      <div style="left: 616px; top: 7px; position: absolute; color: #1E0E62; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Company</div>
+      <div style="left: 498px; top: 7px; position: absolute; color: #1E0E62; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Features</div>
+      <div style="left: 375px; top: 7px; position: absolute; opacity: 0.30; color: #1E0E62; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Overview</div>
+      <div style="width: 111px; height: 19px; left: 0px; top: 11px; position: absolute">
+        <div style="left: 2px; top: -6px; position: absolute; text-align: center; color: #1E0E62; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+      </div>
+    </div>
+    <div style="width: 370px; height: 370px; left: 800px; top: 242px; position: absolute">
+      <img style="width: 370px; height: 370px; left: 0px; top: 0px; position: absolute; border-radius: 50px" src="./images/Rectangle.png" />
+      <div style="width: 132.26px; height: 132.26px; left: 118.87px; top: 118.87px; position: absolute;"><img src="./images/Oval 151.svg" alt=""></div>
+    </div>
+    <div style="width: 206px; height: 60px; left: 214px; top: 593px; position: absolute">
+      <div style="width: 206px; height: 60px; left: 0px; top: 0px; position: absolute; background: #482BE7; border-radius: 100px"></div>
+      <div style="left: 33px; top: 17px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Explore Design</div>
+    </div>
+  </div>
+
+  <div style="width: 1400px; height: 910px; position: relative; background: #2F1893">
+    <div style="width: 760px; height: 113.40px; left: 315px; top: 699px; position: absolute">
+      <div style="width: 360px; height: 110px; left: 400px; top: 0px; position: absolute">
+        <div style="width: 170px; left: 190px; top: 1.40px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">Learn more about Startup Framework in demo version.</div>
+        <div style="width: 170px; height: 110px; left: 0px; top: 0px; position: absolute">
+          <img style="width: 170px; height: 110px; left: 0px; top: 0px; position: absolute; border-radius: 10px" src="./images/Mask_earth.png" />
+          <div style="left: 76px; top: 44px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/Ticon.png" alt=""></div>
+        </div>
+      </div>
+      <div style="width: 360px; height: 113.40px; left: 0px; top: 0px; position: absolute">
+        <div style="width: 170px; left: 190px; top: 1.40px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">A high-quality solution for a beautiful startup website.</div>
+        <div style="width: 170px; height: 110px; left: 0px; top: 0px; position: absolute">
+          <img style="width: 170px; height: 110px; left: 0px; top: 0px; position: absolute; border-radius: 10px" src="./images/Mask_lip.png" />
+          <div style="left: 77px; top: 45px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/Ticon.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+    <div style="width: 280px; height: 70px; left: 560px; top: 531px; position: absolute">
+      <div style="width: 280px; height: 70px; left: 0px; top: 0px; position: absolute; background: #25DAC5; border-radius: 100px"></div>
+      <div style="left: 46px; top: 22px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Get Started for Free</div>
+    </div>
+    <div style="width: 872px; height: 299px; left: 265px; top: 156px; position: absolute">
+      <div style="width: 665px; left: 103px; top: 235px; position: absolute; text-align: center; color: white; font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">Startup contains components and complex blocks which can easily be integrated into almost any design.</div>
+      <div style="width: 872px; left: 0px; top: 0px; position: absolute; text-align: center; color: white; font-size: 58px; font-family: DM Sans; font-weight: 700; line-height: 70px; word-wrap: break-word">A high-quality solution for those who want a beautiful startup website quickly</div>
+    </div>
+    <div style="width: 971px; height: 40px; left: 214px; top: 33px; position: absolute">
+      <div style="width: 242px; height: 40px; left: 729px; top: 0px; position: absolute">
+        <div style="width: 94px; height: 40px; left: 148px; top: 0px; position: absolute">
+          <div style="width: 94px; height: 40px; left: 0px; top: 0px; position: absolute; opacity: 0.30; border-radius: 100px; border: 2px white solid"></div>
+          <div style="left: 19px; top: 9px; position: absolute; text-align: center; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Sign Up</div>
+        </div>
+        <div style="left: 76px; top: 9px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Login</div>
+        <div style="left: 0px; top: 9px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Help</div>
+      </div>
+      <div style="width: 111px; height: 19px; left: 0px; top: 6px; position: absolute">
+        <div style="width: 111px; height: 19px; left: 0px; top: 0px; position: absolute">
+          <div style="left: -30px; top: -6px; position: absolute; text-align: center; color: white; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+        </div>
+      </div>
+      <div style="width: 274px; height: 22px; left: 141px; top: 9px; position: absolute">
+        <div style="left: 0px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Products</div>
+        <div style="left: 100px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Pricing</div>
+        <div style="left: 184px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Community</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-11">
+    <div class="i-pad-pro">
+      <img class="i-pad-pro2" src="./images/iPad Pro.png" /><img
+        class="screen"
+        src="./images/Screenipad.png"
+      />
+    </div>
+    <div class="text">
+      <div class="middle-fill">
+        <div class="rectangle"></div>
+        <div class="sign-up">Get Started</div>
+      </div>
+      <div class="sign-up2">Learn More</div>
+      <div class="we-haven-t-forgotten">
+        We haven’t forgotten about responsive layout. With Startup Framework, you
+        can create a website with full mobile support.
+      </div>
+      <div class="you-have-the-design">Great things begin in a small way</div>
+    </div>
+    <div class="header-menu">
+      <div class="menu">
+        <div class="middle-fill2">
+          <div class="rectangle2"></div>
+          <div class="sign-up3">Buy</div>
+        </div>
+        <div class="about">Contacts</div>
+        <div class="tour">Features</div>
+        <div class="tour2">About</div>
+      </div>
+      <div class="black">
+        <div class="startup-3">Startup 3</div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="Header12" style="width: 1400px; height: 940px; position: relative; background: #2F1893">
+    <!-- <img class="HeroIphoneX" style="width: 379.91px; height: 756.86px; left: 715px; top: 92px; position: absolute" src="https://via.placeholder.com/380x757" /> -->
+    <!-- <img class="HeroIphoneX" style="width: 341.92px; height: 683.32px; left: 843px; top: 129px; position: absolute;transform-origin: 0.0;" src="./images/pierre-chatel-innocenti-636262-unsplash.png" /> -->
+    <div class="HeroIphoneXClay" style="width: 341.92px; height: 683.32px; left: 843px; top: 129px; position: absolute">
+      <div class="Screen" style="width: 296px; height: 642px; left: 0px; top: 0px; position: absolute; transform-origin: 0.0;">
+        <div class="Rectangle" style="width: 296px; height: 642px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"></div>
+        <!-- <img class="PierreChatelInnocenti636262Unsplash" style="width: 455px; height: 683px; left: 338px; top: -21px; position: absolute; transform: rotate(180deg); transform-origin: 0 0" src="https://via.placeholder.com/455x683" /> -->
+        <img class="PierreChatelInnocenti636262Unsplash" style="width: 320px; height: 670px; left: 0px; top: 0px; position: absolute; transform-origin: 0.0;" src="./images/pierre-chatel-innocenti-636262-unsplash.png" alt="">
+      </div>
+      <img class="HeroIphoneXClay" style="width: 341.92px; height: 683.32px; left: 0px; top: 0px; position: absolute" src="./images/HERO iPhone X Clay.png" />
+    </div>
+    <div class="HeroIphoneX" style="width: 379.91px; height: 756.86px; left: 715px; top: 92px; position: absolute">
+      <div class="Screen" style="width: 330px; height: 715px; left: 24.84px; top: 21px; position: absolute">
+        <div class="Rectangle" style="width: 330px; height: 715px; left: 0px; top: 0px; position: absolute; background: #C4C4C4"></div>
+        <!-- <img class="Beasty356328Unsplash" style="width: 858px; height: 1524px; left: 436px; top: -634px; position: absolute; transform: rotate(180deg); transform-origin: 0 0" src="./images/beasty-356328-unsplash.jpg" /> -->
+
+        <img class="Beasty356328Unsplash" style="width: 330px; height: 715px; left: 0px; position: absolute; transform-origin: 0 0" src="./images/beasty-356328-unsplash.jpg" />
+      </div>
+      <img class="HeroIphoneX" style="width: 379.91px; height: 756.86px; left: 0px; top: 0px; position: absolute" src="./images/HERO iPhone X.png" />
+    </div>
+    <div class="MiddleFill" style="width: 275px; height: 60px; left: 214px; top: 724px; position: absolute">
+      <div class="Rectangle" style="width: 275px; height: 60px; left: 0px; top: 0px; position: absolute; background: #25DAC5; border-radius: 100px"></div>
+      <div class="SignUp" style="left: 29px; top: 17px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Download from App Store</div>
+    </div>
+    <div class="Text" style="height: 471px; left: 214px; top: 215px; position: absolute">
+      <div class="AHighQualitySolut" style="width: 371px; left: 0px; top: 375px; position: absolute; color: white; font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">A high-quality solution for those who want a bea-utiful startup website quickly.</div>
+      <div class="BeautifulStartupFr" style="width: 400px; left: 1px; top: 0px; position: absolute; color: white; font-size: 58px; font-family: DM Sans; font-weight: 700; line-height: 70px; word-wrap: break-word">Beautiful Startup Framework for Your Next Project</div>
+    </div>
+    <div class="White" style="width: 111px; height: 19px; left: 215px; top: 160px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+      <div class="White" style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; justify-content: center; align-items: center; display: inline-flex">
+        <div class="Startup3" style="text-align: center; color: white; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Header13" style="width: 1400px; height: 650px; position: relative; background: #2F1893">
+    <img class="Image" style="width: 1400px; height: 650px; left: 0px; top: 0px; position: absolute; opacity: 0.50" src="./images/Image-header13.png" />
+    <div class="CreateSitesWithoutRoutine" style="width: 698px; left: 345px; top: 180px; position: absolute; text-align: center; color: white; font-size: 72px; font-family: DM Sans; font-weight: 700; line-height: 86px; word-wrap: break-word">Create  sites without routine</div>
+    <div class="StartupGivesYouCompleteFreedomOverYourCreativeProcessYouDonTHaveToThinkAboutAnyTechnicalAspectsThereAreNoLimitsAndAbsolutelyNoCoding" style="width: 513px; left: 444px; top: 390px; position: absolute; text-align: center; color: white; font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">Startup gives you complete freedom over your creative process — you don’t have to think about any technical aspects. There are no limits and absolutely no coding. </div>
+    <div class="HeaderMenu" style="width: 972px; height: 40px; left: 213px; top: 54px; position: absolute">
+      <div class="SmallFill" style="width: 120px; height: 40px; left: 852px; top: 0px; position: absolute">
+        <div class="Rectangle" style="width: 120px; height: 40px; left: 0px; top: 0px; position: absolute; background: #482BE7; border-radius: 100px"></div>
+        <div class="SignUp" style="left: 16px; top: 9px; position: absolute; text-align: center; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Get Started</div>
+      </div>
+      <div class="Menu" style="width: 447px; height: 26px; left: 263px; top: 9px; position: absolute">
+        <div class="FaBehance" style="left: 426px; top: 3px; position: absolute; color: white; font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-behance.png" alt=""></div>
+        <div class="FaInstagram" style="left: 380px; top: 3px; position: absolute; color: white; font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-instagram.png" alt=""></div>
+        <div class="FaDribbble" style="left: 334px; top: 3px; position: absolute; color: white; font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-dribbble.png" alt=""></div>
+        <div class="Blog" style="left: 265px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Blog</div>
+        <div class="Pricing" style="left: 174px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Pricing</div>
+        <div class="Features" style="left: 66px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Features</div>
+        <div class="Tour" style="left: 0px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Tour</div>
+      </div>
+      <div class="White" style="width: 111px; height: 19px; left: 0px; top: 11px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+        <div class="White" style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; justify-content: center; align-items: center; display: inline-flex">
+          <div class="Startup3" style="text-align: center; color: white; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Header14" style="width: 1400px; height: 890px; position: relative; background: #2F1893">
+    <div class="SignUpForm" style="width: 470px; height: 600px; left: 715px; top: 187px; position: absolute">
+      <div class="Placeholder" style="width: 470px; height: 600px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 10px"></div>
+      <div class="SignIn" style="left: 325px; top: 529px; position: absolute; color: #25DAC5; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">Sign In</div>
+      <div class="DoYouHaveAnAccou" style="left: 100px; top: 529px; position: absolute; text-align: center; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">Do you have an Account?</div>
+      <div class="MiddleFill" style="width: 330px; height: 50px; left: 70px; top: 449px; position: absolute">
+        <div class="Rectangle" style="width: 330px; height: 50px; left: 0px; top: 0px; position: absolute; background: #1DA1F2; border-radius: 100px"></div>
+        <div class="SignUp" style="left: 96px; top: 12px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Login via Twitter</div>
+      </div>
+      <div class="MiddleFill" style="width: 330px; height: 50px; left: 70px; top: 338px; position: absolute">
+        <div class="Rectangle" style="width: 330px; height: 50px; left: 0px; top: 0px; position: absolute; background: #482BE7; border-radius: 100px"></div>
+        <div class="SignUp" style="left: 137px; top: 12px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Sign In</div>
+      </div>
+      <div class="DividerOr" style="width: 328px; height: 26px; left: 69.50px; top: 406.40px; position: absolute">
+        <div class="Divider" style="width: 141.57px; height: 2px; left: 186.43px; top: 11.10px; position: absolute; border: 2px #EBEAED solid"></div>
+        <div class="Or" style="left: 154.50px; top: 0px; position: absolute; opacity: 0.90; text-align: center; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 400; line-height: 26px; word-wrap: break-word">or</div>
+        <div class="Divider" style="width: 141.57px; height: 2px; left: 0px; top: 11.10px; position: absolute; border: 2px #EBEAED solid"></div>
+      </div>
+      <div class="CheckboxChecked" style="width: 265px; height: 26.40px; left: 70px; top: 284px; position: absolute">
+        <div class="Checked" style="left: 37px; top: 0.40px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 400; line-height: 26px; word-wrap: break-word">I agree to the Terms of Service.</div>
+        <div class="On" style="width: 24px; height: 24px; left: 0px; top: 0px; position: absolute; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+          <div class="Rectangle" style="width: 24px; height: 24px; background: #25DAC5; border-radius: 6px"><img src="./images/On.png" alt=""></div>
+          <!-- <div class="CheckIcon" style="width: 9.60px; height: 6px; transform: rotate(180deg); transform-origin: 0 0; border: 2px #1E0E62 solid"></div> -->
+        </div>
+      </div>
+      <div class="MiddleDarkOutline" style="width: 330px; height: 50px; left: 70px; top: 204px; position: absolute">
+        <div class="Rectangle" style="width: 330px; height: 50px; left: 0px; top: 0px; position: absolute; border-radius: 100px; border: 2px #EBEAED solid"></div>
+        <div class="YourEmail" style="left: 24px; top: 12px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Your password</div>
+      </div>
+      <div class="MiddleDarkOutline" style="width: 330px; height: 50px; left: 70px; top: 134px; position: absolute">
+        <div class="Rectangle" style="width: 330px; height: 50px; left: 0px; top: 0px; position: absolute; border-radius: 100px; border: 2px #EBEAED solid"></div>
+        <div class="YourEmail" style="left: 24px; top: 12px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Your email</div>
+      </div>
+      <div class="SignUp" style="left: 114px; top: 48px; position: absolute; text-align: center; color: #1E0E62; font-size: 42px; font-family: DM Sans; font-weight: 700; line-height: 52px; word-wrap: break-word">Sign Up Now</div>
+    </div>
+    <div class="Text" style="width: 427px; height: 496px; left: 209px; top: 219px; position: absolute">
+      <div class="TheMostImportantP" style="width: 363px; left: 3px; top: 241px; position: absolute; color: white; font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">The most important part of the Startup is the samples. The samples form a set of 25 usable pages you can use as is or you can add new blocks.</div>
+      <div class="MiddleFill" style="width: 157px; height: 50px; left: 0px; top: 446px; position: absolute">
+        <div class="Rectangle" style="width: 157px; height: 50px; left: 0px; top: 0px; position: absolute; background: #E93A7D; border-radius: 100px"></div>
+        <div class="SignUp" style="left: 31px; top: 12px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Learn More</div>
+      </div>
+      <div class="TwentyFiveAwesome" style="width: 424px; height: 217px; left: 3px; top: 0px; position: absolute; color: white; font-size: 58px; font-family: DM Sans; font-weight: 700; line-height: 70px; word-wrap: break-word">Generate Awesome Web Pages</div>
+    </div>
+    <div class="HeaderMenu" style="width: 972px; left: 213px; top: 65px; position: absolute">
+      <div class="Menu" style="width: 503px; height: 40px; left: 469px; top: 0px; position: absolute">
+        <div class="MiddleFill" style="width: 120px; height: 40px; left: 383px; top: 0px; position: absolute">
+          <div class="Rectangle" style="width: 120px; height: 40px; left: 0px; top: 0px; position: absolute; background: #E93A7D; border-radius: 100px"></div>
+          <div class="SignUp" style="left: 21px; top: 7px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Purchase</div>
+        </div>
+        <div class="Feedback" style="left: 265px; top: 7.40px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Feedback</div>
+        <div class="Blog" style="left: 196px; top: 7.40px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Blog</div>
+        <div class="Prices" style="left: 113px; top: 7.40px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Prices</div>
+        <div class="About" style="left: 0px; top: 7.40px; position: absolute; opacity: 0.30; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Overview</div>
+      </div>
+      <div class="White" style="width: 111px; height: 19px; left: 0px; top: 9px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+        <div class="White" style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; justify-content: center; align-items: center; display: inline-flex">
+          <div class="Startup3" style="text-align: center; color: white; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Header15" style="width: 1400px; height: 1000px; position: relative; background: white">
+    <div class="Background" style="width: 1600px; height: 1200px; left: 0px; top: 0px; position: absolute; background: white"></div>
+    <div class="Features" style="width: 1028px; height: 100px; left: 187px; top: 659px; position: absolute">
+      <div class="Lines" style="width: 401px; height: 109px; left: 312px; top: 1px; position: absolute">
+        <div class="Line" style="width: 2px; height: 109px; left: 0px; top: 0px; position: absolute; border: 2px #EBEAED solid"></div>
+        <div class="Line" style="width: 2px; height: 109px; left: 399px; top: 0px; position: absolute; border: 2px #EBEAED solid"></div>
+      </div>
+      <div class="Feature3" style="width: 228px; height: 247.20px; left: 800px; top: 0px; position: absolute">
+        <div class="StartupFrameworkIn" style="width: 228px; left: 0px; top: 135.20px; position: absolute; text-align: center; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">Startup Framework includes great form options for your startup projects.</div>
+        <img class="Mask" style="width: 170px; height: 110px; left: 28px; top: 0px; position: absolute; border-radius: 10px" src="./images/Mask3.png" />
+      </div>
+      <div class="Feature2" style="width: 228px; height: 247.20px; left: 400px; top: 0px; position: absolute">
+        <div class="StartupsCanSaveMo" style="width: 228px; left: 0px; top: 135.20px; position: absolute; text-align: center; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">Startups can save money on design and code and use those savings to develop the business.</div>
+        <img class="Mask" style="width: 170px; height: 110px; left: 28px; top: 0px; position: absolute; border-radius: 10px" src="./images/Mask2.png" />
+      </div>
+      <div class="Feature1" style="width: 228px; height: 219.20px; left: 0px; top: 0px; position: absolute">
+        <div class="AHighQualitySolut" style="width: 228px; left: 0px; top: 135.20px; position: absolute; text-align: center; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 28px; word-wrap: break-word">A high-quality solution for a beautiful startup website.</div>
+        <img class="Mask" style="width: 170px; height: 110px; left: 28px; top: 0px; position: absolute; border-radius: 10px" src="./images/Mask1.png" />
+      </div>
+    </div>
+    <div class="Text" style="width: 714px; height: 387px; left: 343px; top: 161px; position: absolute">
+      <div class="BigFill" style="width: 268px; height: 60px; left: 202px; top: 327px; position: absolute">
+        <div class="Rectangle" style="width: 268px; height: 60px; left: 0px; top: 0px; position: absolute; background: #E93A7D; border-radius: 100px"></div>
+        <div class="SignUp" style="left: 45px; top: 17px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Create an Account</div>
+      </div>
+      <div class="WeHaveCreatedANe" style="width: 625px; left: 45px; top: 172px; position: absolute; text-align: center; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.</div>
+      <div class="BuildYourOwnSite" style="width: 714px; left: 0px; top: 0px; position: absolute; text-align: center; color: #1E0E62; font-size: 58px; font-family: DM Sans; font-weight: 700; line-height: 70px; word-wrap: break-word">Build Your Own Site like a Lego Constructor</div>
+    </div>
+    <div class="HeaderMenu" style="width: 972px; height: 40px; left: 213px; top: 36px; position: absolute">
+      <div class="SignUp" style="width: 172px; height: 40px; left: 800px; top: 0px; position: absolute">
+        <div class="MiddleFill" style="width: 100px; height: 40px; left: 72px; top: 0px; position: absolute">
+          <div class="Rectangle" style="width: 100px; height: 40px; left: 0px; top: 0px; position: absolute; background: #25DAC5; border-radius: 100px"></div>
+          <div class="SignUp" style="left: 18px; top: 7px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Sign Up</div>
+        </div>
+        <div class="Login" style="left: 0px; top: 7px; position: absolute; color: #25DAC5; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Login</div>
+      </div>
+      <div class="Menu" style="width: 352px; height: 22px; left: 310px; top: 9px; position: absolute">
+        <div class="Support" style="left: 290px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Support</div>
+        <div class="FAQ" style="left: 220px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">F.A.Q.</div>
+        <div class="About" style="left: 142px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">About</div>
+        <div class="Prices" style="left: 65px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Prices</div>
+        <div class="Tour" style="left: 0px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Tour</div>
+      </div>
+      <div class="Black" style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; left: 0px; top: 5px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+        <div class="Startup3" style="text-align: center; color: #1E0E62; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Header16" style="width: 1400px; height: 920px; position: relative; background: #2F1893">
+    <img class="Image" style="width: 1400px; height: 920px; left: 0px; top: 0px; position: absolute; opacity: 0.40" src="./images/Image_bg_header16.png" />
+    <div class="MacbookPro" style="width: 1006.31px; height: 579.94px; left: 822.81px; top: 178px; position: absolute">
+      <div class="Macbook" style="width: 1006.31px; height: 579.94px; left: 0px; top: 0px; position: absolute">
+        <img class="MacbookPro" style="width: 1006.31px; height: 579.94px; left: 0px; top: 0px; position: absolute" src="./images/MacBook Pro.png" />
+        <!-- <div class="Line" style="width: 815.58px; height: 546.61px; left: 95.60px; top: 2.78px; position: absolute">
+          <div class="Line" style="width: 809.11px; height: 14.81px; left: 3.69px; top: 531.80px; position: absolute; background: #1B1B1B; border-top-left-radius: 6.47px; border-top-right-radius: 6.47px"></div>
+          <div class="Line" style="width: 815.58px; height: 546.61px; left: 0px; top: 0px; position: absolute; border: 1.85px #1B1B1B solid"></div>
+          <div class="Line" style="width: 2.78px; height: 1.21px; left: 810.72px; top: 545.40px; position: absolute; background: #1B1B1B"></div>
+          <div class="Line" style="width: 2.78px; height: 1.21px; left: 2.06px; top: 545.40px; position: absolute; background: #1B1B1B"></div>
+        </div> -->
+        <!-- <img class="MacbookProCopy" style="width: 61.32px; height: 7.94px; left: 473.16px; top: 537.86px; position: absolute" src="https://via.placeholder.com/61x8" /> -->
+      </div>
+      <img class="Rectangle" style="width: 779px; height: 495px; left: 113.19px; top: 26px; position: absolute; border-radius: 5px" src="./images/Screen.png" />
+    </div>
+    <div class="Features" style="width: 556px; height: 215.20px; left: 215px; top: 592px; position: absolute">
+      <div class="Feature2" style="width: 256px; height: 189.20px; left: 300px; top: 0px; position: absolute">
+        <div class="Html5Css3" style="left: 1px; top: 84.20px; position: absolute; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">HTML5 & CSS3</div>
+        <div class="WeUsedOnlyTimeTe" style="width: 255px; left: 1px; top: 137.20px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 400; line-height: 26px; word-wrap: break-word">We used only time-tested technologies for the best results.</div>
+        <div class="FaHtml5" style="left: 0px; top: 0px; position: absolute; color: white; font-size: 50px; font-family: FontAwesome; font-weight: 400; text-transform: uppercase; line-height: 26px; letter-spacing: 6.25px; word-wrap: break-word"><img src="./images/fa-html5.png" alt=""></div>
+      </div>
+      <div class="Feature1" style="width: 256px; height: 215.20px; left: 0px; top: 0px; position: absolute">
+        <div class="BasedOnBootstrap3" style="left: 1px; top: 84.20px; position: absolute; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Based on Bootstrap 4</div>
+        <div class="HtmlLayoutIsBased" style="width: 255px; left: 1px; top: 137.20px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 400; line-height: 26px; word-wrap: break-word">HTML layout is based on one of the most common and reliable framework - Bootstrap.</div>
+        <div class="FaGears" style="left: 0px; top: 0px; position: absolute; color: white; font-size: 50px; font-family: FontAwesome; font-weight: 400; text-transform: uppercase; line-height: 26px; letter-spacing: 6.25px; word-wrap: break-word"><img src="./images/fa-gears.png" alt=""></div>
+      </div>
+    </div>
+    <div class="Text" style="height: 300px; left: 215px; top: 178px; position: absolute">
+      <div class="WeHaveCreatedANe" style="width: 564px; left: 0px; top: 204px; position: absolute; color: white; font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.</div>
+      <div class="BuildYourOwnSite" style="width: 526px; left: 0px; top: 0px; position: absolute; color: white; font-size: 72px; font-family: DM Sans; font-weight: 700; line-height: 86px; word-wrap: break-word">Suit Up Your Startup</div>
+    </div>
+    <div class="HeaderMenu" style="width: 972px; height: 40px; left: 213px; top: 45px; position: absolute">
+      <div class="MiddleFill" style="width: 105px; height: 40px; left: 867px; top: 0px; position: absolute">
+        <div class="Rectangle" style="width: 105px; height: 40px; left: 0px; top: 0px; position: absolute; background: #25DAC5; border-radius: 100px"></div>
+        <div class="SignUp" style="left: 18px; top: 7px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Buy $38</div>
+      </div>
+      <div class="Menu" style="width: 367px; height: 26px; left: 135px; top: 5px; position: absolute">
+        <div class="Tour" style="left: 0px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Tour</div>
+        <div class="Prices" style="left: 68px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Prices</div>
+        <div class="About" style="left: 148px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">About</div>
+        <div class="FAQ" style="left: 227px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">F.A.Q.</div>
+        <div class="Support" style="left: 297px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Support</div>
+      </div>
+      <div class="White" style="width: 111px; height: 19px; left: 0px; top: 6px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+        <div class="White" style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; justify-content: center; align-items: center; display: inline-flex">
+          <div class="Startup3" style="text-align: center; color: white; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Header17" style="width: 1400px; height: 1040px; position: relative; background: #2F1893">
+    <img class="Rectangle" style="width: 970px; height: 546px; left: 215px; top: 390px; position: absolute; border-radius: 10px" src="./images/Rectangle_header17.png" />
+    <div class="Text" style="height: 143px; left: 215px; top: 170px; position: absolute">
+      <div class="StartupFrameworkGi" style="width: 742px; left: 0px; top: 79px; position: absolute; opacity: 0.70; color: white; font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">Startup Framework gives you complete freedom over your creative process — you don’t have to think about any technical aspects. </div>
+      <div class="SimpleDesignProt" style="width: 653px; height: 47px; left: 0px; top: 0px; position: absolute; color: white; font-size: 42px; font-family: DM Sans; font-weight: 700; line-height: 52px; word-wrap: break-word">Simple design & prototyping</div>
+    </div>
+    <div class="CallToAction" style="height: 110px; left: 995px; top: 175px; position: absolute">
+      <div class="ItIsAbsolutelyFre" style="left: 23px; top: 84px; position: absolute; opacity: 0.70; text-align: center; color: white; font-size: 16px; font-family: DM Sans; font-weight: 400; line-height: 26px; word-wrap: break-word">It is absolutely free.</div>
+      <div class="BigFill" style="width: 190px; height: 50px; position: relative; flex-direction: column; justify-content: flex-start; align-items: flex-start; display: inline-flex">
+        <div class="Rectangle" style="text-align: center; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; width: 190px; height: 70px; background: #25DAC5; border-radius: 100px; display: flex; justify-content: center; align-items: center;">
+          Get Started
+        </div>
+        <!-- <div class="SignUp" style="left: 1000px; top: 100px; text-align: center; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Get Started</div> -->
+      </div>
+      
+    </div>
+    <div class="HeaderMenu" style="left: 213px; top: 71px; position: absolute">
+      <div class="Menu" style="width: 430px; height: 22px; left: 542px; top: 0px; position: absolute">
+        <div class="FaTwitter" style="width: 15px; height: 18px; left: 415px; top: 3px; position: absolute; color: white; font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-twitter-white.png" alt=""></div>
+        <div class="FaFacebookSquare" style="width: 14px; height: 18px; left: 360px; top: 3px; position: absolute; color: white; font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-facebook-square_white.png" alt=""></div>
+        <div class="Blog" style="left: 285px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Blog</div>
+        <div class="Pricing" style="left: 188px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Pricing</div>
+        <div class="Features" style="left: 78px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Features</div>
+        <div class="Tour" style="left: 0px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Tour</div>
+      </div>
+      <div class="White" style="width: 111px; height: 19px; left: 0px; top: 3px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+        <div class="White" style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; justify-content: center; align-items: center; display: inline-flex">
+          <div class="Startup3" style="text-align: center; color: white; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+        </div>
+      </div>
+    </div>
+    <div class="IconFill" style="width: 80px; height: 80px; left: 660px; top: 623px; position: absolute">
+      <div class="Rectangle" style="width: 80px; height: 80px; left: 0px; top: 0px; position: absolute; background: #EA3223; border-radius: 100px"></div>
+      <div class="Icon" style="width: 16px; height: 16px; left: 34px; top: 33px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/Ticon.png" alt=""></div>
+    </div>
+  </div>
+
+  <div class="Header18" style="width: 1400px; height: 850px; position: relative; background: #2F1893">
+    <img class="Image" style="width: 1400px; height: 850px; left: 0px; top: 0px; position: absolute; opacity: 0.50" src="./images/Image-header-18.png" />
+    <div class="BigFill" style="width: 170px; height: 60px; left: 213px; top: 622px; position: absolute">
+      <div class="Rectangle" style="width: 170px; height: 60px; left: 0px; top: 0px; position: absolute; background: white; border-radius: 100px"></div>
+      <div class="SignUp" style="left: 30px; top: 17px; position: absolute; text-align: center; color: #482BE7; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Get Started</div>
+    </div>
+    <div class="BigWhiteOutline" style="width: 170px; height: 60px; left: 404px; top: 622px; position: absolute">
+      <div class="Rectangle" style="width: 170px; height: 60px; left: 0px; top: 0px; position: absolute; opacity: 0.30; border-radius: 100px; border: 2px white solid"></div>
+      <div class="SignUp" style="left: 32px; top: 17px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Learn More</div>
+    </div>
+    <div class="Text" style="width: 626px; height: 389.80px; left: 213px; top: 197px; position: absolute">
+      <div class="WeHaveCreatedANe" style="width: 572px; left: 2px; top: 293.80px; position: absolute; color: white; font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">We have created a new product that will help designers, developers and companies create websites for their startups quickly and easily.</div>
+      <div class="StartupFrameworkS" style="width: 626px; left: 0px; top: 0px; position: absolute; color: white; font-size: 72px; font-family: DM Sans; font-weight: 700; line-height: 86px; word-wrap: break-word">Startup Framework.
+      Suit Up Your Startup</div>
+    </div>
+    <div class="HeaderMenu" style="width: 1072px; height: 40px; left: 213px; top: 60px; position: absolute">
+      <div class="MiddleFill" style="width: 100px; height: 40px; left: 972px; top: 0px; position: absolute">
+        <div class="Rectangle" style="width: 100px; height: 40px; left: -130px; top: 0px; position: absolute; background: white; border-radius: 100px"></div>
+        <div class="SignUp" style="left: -110px; top: 7px; position: absolute; text-align: center; color: #482BE7; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Sign Up</div>
+      </div>
+      <div class="Menu" style="width: 455px; height: 26px; left: 485px; top: 7px; position: absolute">
+        <div class="GetTheApp" style="left: -30px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Get App</div>
+        <div class="Features" style="left: 50px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Features</div>
+        <div class="About" style="left: 130px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">About</div>
+        <div class="FAQ" style="left: 210px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">F.A.Q.</div>
+        <div class="SignIn" style="left: 290px; top: 0px; position: absolute; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Sign In</div>
+      </div>
+      <div class="White" style="width: 111px; height: 19px; left: 0px; top: 11px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+        <div class="White" style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; justify-content: center; align-items: center; display: inline-flex">
+          <div class="Startup3" style="text-align: center; color: white; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="Header19" style="width: 1400px; height: 900px; position: relative; background: white">
+    <div class="Text" style="width: 470px; height: 491px; left: 215px; top: 253px; position: absolute">
+      <div class="MiddleFill" style="width: 300px; height: 60px; left: 0px; top: 431px; position: absolute">
+        <div class="Rectangle" style="width: 300px; height: 60px; left: 0px; top: 0px; position: absolute; background: #482BE7; border-radius: 100px"></div>
+        <div class="SignUp" style="left: 41px; top: 17px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Download from App Store</div>
+      </div>
+      <div class="TheBestAppleWatch" style="width: 469px; left: 1px; top: 0px; position: absolute; color: #1E0E62; font-size: 58px; font-family: DM Sans; font-weight: 700; line-height: 70px; word-wrap: break-word">The best Apple Watch apps</div>
+      <div class="StartupFrameworkGi" style="width: 458px; left: 0px; top: 177px; position: absolute; opacity: 0.70; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">Startup Framework gives you complete freedom over your creative process — you don’t have to think about any technical aspects. There are no limits and absolutely no coding. </div>
+    </div>
+    <div class="HeaderMenu" style="height: 80.40px; left: 432px; top: 96px; position: absolute">
+      <div class="Menu" style="width: 537px; height: 22px; left: 0px; top: 58.40px; position: absolute">
+        <div class="FaProductHunt" style="left: 466px; top: 0.60px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-product-hunt.png" alt=""></div>
+        <div class="FaApple" style="left: 522px; top: 0.60px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-apple.png" alt=""></div>
+        <div class="Blog" style="left: 272px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Blog</div>
+        <div class="ContactUs" style="left: 344px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Contact Us</div>
+        <div class="About" style="left: 188px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">About</div>
+        <div class="Features" style="left: 84px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Features</div>
+        <div class="Home" style="left: 0px; top: 0px; position: absolute; color: rgba(21.06, 20.34, 56.79, 0.40); font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Home</div>
+      </div>
+      <div class="Black" style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; left: 213px; top: 0px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+        <div class="Startup3" style="text-align: center; color: #1E0E62; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+      </div>
+    </div>
+    <div class="PaginatorBlack" style="width: 91px; height: 11px; left: 126px; top: 408px; position: absolute; transform: rotate(90deg); transform-origin: 0 0; justify-content: center; align-items: center; display: inline-flex">
+      <div class="Dots" style="width: 91px; height: 11px; position: relative">
+        <div class="FaCircle" style="width: 11px; height: 11px; left: 80px; top: 0px; position: absolute; color: #EBEAED; font-size: 12px; font-family: FontAwesome; font-weight: 400; line-height: 36px; word-wrap: break-word"><img src="./images/fa-circle-gray.png" alt=""></div>
+        <div class="FaCircle" style="width: 11px; height: 11px; left: 60px; top: 0px; position: absolute; color: #EBEAED; font-size: 12px; font-family: FontAwesome; font-weight: 400; line-height: 36px; word-wrap: break-word"><img src="./images/fa-circle-gray.png" alt=""></div>
+        <div class="FaCircle" style="width: 11px; height: 11px; left: 40px; top: 0px; position: absolute; color: #EBEAED; font-size: 12px; font-family: FontAwesome; font-weight: 400; line-height: 36px; word-wrap: break-word"><img src="./images/fa-circle-gray.png" alt=""></div>
+        <div class="FaCircle" style="width: 11px; height: 11px; left: 20px; top: 0px; position: absolute; color: #EBEAED; font-size: 12px; font-family: FontAwesome; font-weight: 400; line-height: 36px; word-wrap: break-word"><img src="./images/fa-circle-gray.png" alt=""></div>
+        <div class="FaCircle" style="width: 11px; height: 11px; left: 0px; top: 0px; position: absolute; color: #E93A7D; font-size: 12px; font-family: FontAwesome; font-weight: 400; line-height: 36px; word-wrap: break-word"><img src="./images/fa-circle-pink.png" alt=""></div>
+      </div>
+    </div>
+    <img class="Image" style="width: 395px; height: 515px; left: 767px; top: 250px; position: absolute" src="./images/image-iwatch.png" />
+  </div>
+
+  <div class="Header20" style="width: 1400px; height: 1070px; position: relative; background: #2F1893">
+    <div class="Text" style="width: 505px; height: 459px; left: 710px; top: 276px; position: absolute">
+      <div class="TheMostImportantP" style="width: 400px; left: 4px; top: 299px; position: absolute; color: white; font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">The most important part of the Startup Framework is the samples. The samples form a set of 25 usable pages you can use as is or you can add new blocks from UI Kit.</div>
+      <div class="LetSMakeDesignFa" style="width: 505px; left: 0px; top: 0px; position: absolute; color: white; font-size: 72px; font-family: DM Sans; font-weight: 700; line-height: 86px; word-wrap: break-word">Let’s make design fast and easy</div>
+    </div>
+    <div class="White" style="width: 111px; height: 19px; left: 713px; top: 220px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+      <div class="White" style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; justify-content: center; align-items: center; display: inline-flex">
+        <div class="Startup3" style="text-align: center; color: white; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+      </div>
+    </div>
+    <div class="HeroIphoneX" style="width: 269.76px; height: 744.97px; left: 315px; top: 154px; position: absolute">
+      <img class="Rectangle" style="width: 256px; height: 728px; left: 5.88px; top: 6px; position: absolute" src="./images/Rectangle-20.png" />
+      <img class="HeroIphoneX" style="width: 269.76px; height: 744.97px; left: 0px; top: 0px; position: absolute" src="./images/HERO iPhone X-20.png" />
+    </div>
+    <div class="FaReorder" style="left: 1169px; top: 73px; position: absolute; text-align: right; color: white; font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-reorder.png" alt=""></div>
+    <div class="BigFill" style="width: 170px; height: 60px; left: 715px; top: 772px; position: absolute">
+      <div class="Rectangle" style="width: 170px; height: 60px; left: 0px; top: 0px; position: absolute; background: #25DAC5; border-radius: 100px"></div>
+      <div class="SignUp" style="left: 30px; top: 17px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word">Get Started</div>
+    </div>
+  </div>
+
+  <div class="Header21" style="width: 1400px; height: 810px; position: relative; background: #2F1893">
+    <img class="Image" style="width: 1400px; height: 810px; left: 0px; top: 0px; position: absolute; opacity: 0.50" src="./images/Image-21-bg.png" />
+    <div class="Feature2" style="height: 100px; left: 800px; top: 583px; position: absolute">
+        <div class="ShareExportToHt" style="left: 0px; top: 10px; position: absolute; color: white; font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; white-space: nowrap;">Share & Export to HTML</div>
+        <div class="SaveTimeAndEnergy" style="width: 300px; left: 0px; top: 50px; position: absolute; opacity: 0.70; color: white; font-size: 16px; font-family: DM Sans; font-weight: 400; line-height: 22px; word-wrap: break-word">Save time and energy by showing a developer about how things.</div>
+      </div>
+      
+      <div class="Feature1" style="height: 100.20px; left: 300px; top: 583px; position: absolute">
+        <div class="DragAndDropGenera" style="left: 0px; top: 10px; position: absolute; color: white; font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; white-space: nowrap;">Drag and Drop Generator</div>
+        <div class="BuildYourSiteQuic" style="width: 350px; left: 0px; top: 50px; position: absolute; opacity: 0.70; color: white; font-size: 16px; font-family: DM Sans; font-weight: 400; line-height: 22px; word-wrap: break-word">Build your site quickly with an intuitive and easy-to-use drag and drop interface.</div>
+      </div>
+      
+      
+    <div class="IconFill" style="width: 70px; height: 70px; left: 665px; top: 403px; position: absolute">
+      <div class="Rectangle" style="width: 70px; height: 70px; left: 0px; top: 0px; position: absolute; background: #EA3223; border-radius: 100px"></div>
+      <div class="Icon" style="width: 16px; height: 16px; left: 29px; top: 28px; position: absolute; text-align: center; color: white; font-size: 20px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/Ticon.png" alt=""></div>
+    </div>
+    <div class="StartupFrameworkS" style="width: 608px; left: 396px; top: 163px; position: absolute; text-align: center; color: white; font-size: 58px; font-family: DM Sans; font-weight: 700; line-height: 70px; word-wrap: break-word"> Startup 3.
+    Suit Up Your Startup</div>
+    <div class="HeaderMenu" style="width: 971px; height: 40px; left: 214px; top: 49px; position: absolute">
+      <div class="SmallFill" style="width: 90px; height: 40px; left: 881px; top: 0px; position: absolute">
+        <div class="Rectangle" style="width: 90px; height: 40px; left: 0px; top: 0px; position: absolute; background: #482BE7; border-radius: 100px"></div>
+        <div class="SignUp" style="left: 17px; top: 9px; position: absolute; text-align: center; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Sign Up</div>
+      </div>
+      <div class="SmallWhiteOutline" style="width: 90px; height: 40px; left: 771px; top: 0px; position: absolute">
+        <div class="Rectangle" style="width: 90px; height: 40px; left: 0px; top: 0px; position: absolute; opacity: 0.30; border-radius: 100px; border: 2px white solid"></div>
+        <div class="SignUp" style="left: 20px; top: 9px; position: absolute; text-align: center; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Sign In</div>
+      </div>
+      <div class="Menu" style="width: 313px; height: 22px; left: 330px; top: 11px; position: absolute">
+        <div class="GetTheApp" style="left: 0px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Get App</div>
+        <div class="Features" style="left: 94px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Features</div>
+        <div class="About" style="left: 193px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">About</div>
+        <div class="FAQ" style="left: 271px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">F.A.Q.</div>
+      </div>
+      <div class="White" style="width: 111px; height: 19px; left: 0px; top: 11px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+        <div class="White" style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; justify-content: center; align-items: center; display: inline-flex">
+          <div class="Startup3" style="text-align: center; color: white; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="Header22" style="width: 1400px; height: 790px; position: relative; background: #2F1893">
+    <img class="Background" style="width: 1400px; height: 790px; left: 0px; top: 0px; position: absolute; opacity: 0.60" src="./images/Background-22.png" />
+    <div class="HeaderMenu" style="width: 971px; height: 40px; left: 214px; top: 50px; position: absolute">
+      <div class="SignIn" style="width: 242px; height: 40px; left: 729px; top: 0px; position: absolute">
+        <div class="SmallWhiteOutline" style="width: 94px; height: 40px; left: 148px; top: 0px; position: absolute">
+          <div class="Rectangle" style="width: 94px; height: 40px; left: 0px; top: 0px; position: absolute; opacity: 0.30; border-radius: 100px; border: 2px white solid"></div>
+          <div class="SignUp" style="left: 19px; top: 9px; position: absolute; text-align: center; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Sign Up</div>
+        </div>
+        <div class="Login" style="left: 76px; top: 9px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Login</div>
+        <div class="Help" style="left: 0px; top: 9px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Help</div>
+      </div>
+      <div class="White" style="width: 111px; height: 19px; left: 0px; top: 6px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+        <div class="White" style="width: 111px; height: 19px; padding-left: 2px; padding-right: 3px; justify-content: center; align-items: center; display: inline-flex">
+          <div class="Startup3" style="text-align: center; color: white; font-size: 24px; font-family: DM Sans; font-weight: 700; word-wrap: break-word">Startup 3</div>
+        </div>
+      </div>
+      <div class="Menu" style="width: 274px; height: 22px; left: 141px; top: 9px; position: absolute">
+        <div class="Products" style="left: 0px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Products</div>
+        <div class="Pricing" style="left: 100px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Pricing</div>
+        <div class="Community" style="left: 184px; top: 0px; position: absolute; color: white; font-size: 16px; font-family: DM Sans; font-weight: 500; line-height: 22px; word-wrap: break-word">Community</div>
+      </div>
+    </div>
+    <div class="Title" style="width: 718px; height: 187px; left: 341px; top: 200px; position: absolute">
+      <div class="TheAmazingHubble" style="left: 51px; top: 0px; position: absolute; color: white; font-size: 58px; font-family: DM Sans; font-weight: 700; line-height: 70px; word-wrap: break-word">The Amazing Hubble</div>
+      <div class="TheFirstAreaOfSpecializationInTelescopesHasToDoWithTheTypesOfTelescopesPeopleUseTheThreeDesignsOfTelescopesThatMostPeopleUseAreTheRefractor" style="width: 718px; height: 97px; left: 0px; top: 90px; position: absolute; text-align: center; color: white; font-size: 22px; font-family: DM Sans; font-weight: 500; line-height: 32px; word-wrap: break-word">The first area of specialization in telescopes has to do with the types of telescopes people use. The three designs of telescopes that most people use are the Refractor</div>
+    </div>
+    <div class="Form" style="width: 970px; height: 60px; left: 180px; top: 460px; position: absolute">
+        <div class="BigFill" style="width: 250px; height: 60px; left: 800px; top: 0px; position: absolute; flex-direction: column; justify-content: center; align-items: center; display: inline-flex">
+            <div class="Rectangle" style="width: 250px; height: 60px; background: #E93A7D; border-radius: 100px;"></div>
+            <div class="SignUp" style="text-align: center; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">Get Started</div>
+        </div>
+    
+        <div class="BigWhiteOutline" style="width: 300px; height: 60px; left: 0px; top: 0px; position: absolute; flex-direction: column; justify-content: center; align-items: flex-start; display: inline-flex">
+            <div class="Rectangle" style="width: 370px; height: 60px; opacity: 0.20; border-radius: 100px; border: 2px white solid; text-align: left; left: 200px;"></div>
+            <div class="Yourname" style="opacity: 0.40; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word; position: absolute; top: 50%; transform: translateY(-50%); left: 20px;">Your name</div>
+        </div>
+    
+        <div class="BigWhiteOutline" style="width: 300px; height: 60px; left: 400px; top: 0px; position: absolute; flex-direction: column; justify-content: center; align-items: flex-start; display: inline-flex">
+            <div class="Rectangle" style="width: 370px; height: 60px; opacity: 0.20; border-radius: 100px; border: 2px white solid; text-align: left;"></div>
+            <div class="YourEmail" style="opacity: 0.40; color: white; font-size: 20px; font-family: DM Sans; font-weight: 500; line-height: 26px; word-wrap: break-word; position: absolute; top: 50%; transform: translateY(-50%); left: 20px;">Your email</div>
+        </div>
+    </div>
+    
+      
+    <div class="Social" style="height: 86px; left: 575px; top: 604px; position: absolute">
+      <div class="OrSignUpWith" style="left: 50px; top: 0px; position: absolute; color: white; font-size: 14px; font-family: DM Sans; font-weight: 700; text-transform: uppercase; line-height: 26px; letter-spacing: 2px; text-wrap: nowrap;">or sign up with</div>
+      <div class="Group" style="width: 250px; height: 40px; left: 0px; top: 46px; position: absolute">
+        <div class="Twitter" style="width: 40px; height: 40px; left: 0px; top: 0px; position: absolute">
+          <div class="Ellipse" style="width: 40px; height: 40px; left: 0px; top: 0px; position: absolute; opacity: 0.20; border-radius: 9999px; border: 2px white solid"></div>
+          <div class="FaTwitter" style="width: 15px; height: 18px; left: 13px; top: 12px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-twitter-white.png" alt=""></div>
+        </div>
+        <div class="Twitter" style="width: 40px; height: 40px; left: 140px; top: 0px; position: absolute">
+          <div class="Ellipse" style="width: 40px; height: 40px; left: 0px; top: 0px; position: absolute; opacity: 0.20; border-radius: 9999px; border: 2px white solid"></div>
+          <div class="FaTwitter" style="width: 15px; height: 18px; left: 12px; top: 12px; position: absolute; color: white; font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-google-white.png" alt=""></div>
+        </div>
+        <div class="Twitter" style="width: 40px; height: 40px; left: 210px; top: 0px; position: absolute">
+          <div class="Ellipse" style="width: 40px; height: 40px; left: 0px; top: 0px; position: absolute; opacity: 0.20; border-radius: 9999px; border: 2px white solid"></div>
+          <div class="FaTwitter" style="width: 15px; height: 18px; left: 12px; top: 12px; position: absolute; color: white; font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-github-white.png" alt=""></div>
+        </div>
+        <div class="Twitter" style="width: 40px; height: 40px; left: 70px; top: 0px; position: absolute">
+          <div class="Ellipse" style="width: 40px; height: 40px; left: 0px; top: 0px; position: absolute; opacity: 0.20; border-radius: 9999px; border: 2px white solid"></div>
+          <div class="FaTwitter" style="width: 15px; height: 18px; left: 12px; top: 12px; position: absolute; text-align: center; color: white; font-size: 18px; font-family: FontAwesome; font-weight: 400; word-wrap: break-word"><img src="./images/fa-facebook-square_white.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
